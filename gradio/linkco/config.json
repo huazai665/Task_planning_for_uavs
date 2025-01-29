@@ -1,0 +1,70 @@
+{
+  "llm": {
+    "openai": {
+      "name": "openai",
+      
+      "image": false
+    },
+    "vglm6b": {
+      "name": "vglm6b",
+      "model_path": "",
+      "lora_path": "",
+      "device": "cuda",
+      "precision": "fp16",
+      "image": true
+    },
+    "glm6b": {
+      "name": "glm6b",
+      "model_path": "",
+      "lora_path": "",
+      "device": "cuda",
+      "precision": "fp16",
+      "image": false
+    },
+    "glm26b": {
+      "name": "glm26b",
+      "model_path": "",
+      "lora_path": "",
+      "device": "cuda",
+      "precision": "fp16",
+      "image": false
+    },
+    "giiso": {
+      "name": "giiso",
+      "apikey": "",
+      "image": false
+    },
+    "mind7b": {
+      "name": "mind7b",
+      "image": false
+    }
+  },
+
+  "vector_model": {
+    "name": "chinese-large",
+    "model_path": "",
+    "device": "cuda"
+  },
+
+  "v2t_model": {
+    "whisper": {
+      "model_path": "",
+      "device": "cpu"
+    }
+  },
+
+  "t2v_model": {
+    "pyttsx3": {
+      "type": "pyttsx3",
+      "model_path": "",
+      "device": "cpu"
+    }
+  },
+
+  "save_data": {
+    "base_path": "linkco_data/",
+    "vector_database_path": "vector_database/",
+    "cash_path": "cash_data.json",
+    "llm_response_path": "llm_response.json"
+  }
+}

@@ -1,0 +1,13 @@
+fly.takeoff() - 起飞无人机。
+fly.land() - 降落无人机。
+fly.left(x, id) - 第id号无人机向左飞x厘米。
+fly.right(x, id) - 第id号无人机向右飞x厘米。
+fly.forward(x, id) - 第id号无人机向前飞x厘米。
+fly.back(x, id) - 第id号无人机向后飞x厘米。
+fly.up(x, id) - 第id号无人机向上飞x厘米。
+fly.down(x, id) - 第id号无人机向下飞x厘米。
+fly.flip(x, id) - 第id号无人机向x方向翻转，x的取值为'left'，'right'，'forward'，'back'。
+fly.rotate_cw(x, id) - 第id号无人机顺时针绕自身旋转x度，x取值范围为1-360度。
+fly.rotate_ccw(x, id) - 第id号无人机逆时针绕自身旋转x度，x取值范围为1-360度。
+fly.straight(x, y, z, s, id) - 第id号无人机以速度s cm/s直线飞行到坐标为（x,y,z）的目标地，x,y,z必须为整数值，单位为厘米，速度s 的取值范围为10-100cm/s。
+fly.curve(x1, y1, z1, x2, y2, z2, s, id) - 第id号无人机以速度s cm/s进行曲线飞行，该曲线经过三个点，分别为无人机当前位置点，曲线中间点(x1,y1,z1)和曲线终点(x2,y2,z2)，速度s的取值范围为10-100cm/s。
