@@ -2,7 +2,7 @@
   "llm": {
     "openai": {
       "name": "openai",
-      
+      "apikey": " ",
       "image": false
     },
     "vglm6b": {
